@@ -8,8 +8,7 @@ Script Purpose:
     Run this script to re-define the DDL structure of 'bronze' Tables
 ==========================================================
 */
-
-if OBJECT_ID('bronze.crm_cust_info','u') is not null
+if OBJECT_ID('bronze.crm_cust_info' ,'u') is not null
 	drop table bronze.crm_cust_info;
 create table bronze.crm_cust_info(
 cst_id int,
@@ -65,4 +64,3 @@ CAT nvarchar(50),
 SUBCAT nvarchar(50),
 MAINTENANCE nvarchar(50)
 );
-
