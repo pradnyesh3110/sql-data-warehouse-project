@@ -20,7 +20,7 @@ Usage Example:
 
 ===============================================================================
 */"""
---exec silver.load_silver
+
 alter PROCEDURE silver.load_silver
 AS
 begin
